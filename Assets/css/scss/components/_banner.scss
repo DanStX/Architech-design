@@ -1,0 +1,24 @@
+.banner {
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	text-align: left;
+
+    & > .big-title {
+        font-size: $big-title;
+        line-height: 1;
+    }
+
+
+    & > .para {
+        font-family: 'Josefin Slab', serif;
+        font-size: 3rem;
+        width: 70%;
+        letter-spacing: .1rem;
+        line-height: 1;
+        margin: 2rem 0 3rem 0;
+        text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4);
+        opacity:$zero;
+        animation:$animation .7s forwards;
+    }
+}

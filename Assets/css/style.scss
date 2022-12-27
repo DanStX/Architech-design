@@ -1,0 +1,37 @@
+
+@import 
+    './scss/abstracts/functions',
+    './scss/abstracts/mixins',
+    './scss/abstracts/variables';
+@import 
+    // './scss/vendors/bootstrap5/bootstrap.scss',
+    // './scss/vendors/flexslider',
+    './scss/vendors/normalize';
+@import 
+    './scss/base/reset',
+    './scss/base/typography',
+    './scss/base/animations',
+    './scss/base/base';
+@import 
+'./scss/layout/containers',
+    './scss/layout/header',
+    './scss/layout/main',
+    './scss/layout/footer';
+    // './scss/layout/navbar',
+    // './scss/layout/navbar';
+@import 
+    './scss/components/banner',
+    './scss/components/btn',
+    './scss/components/burger-menu',
+    './scss/components/img-wrapper';
+// @import 
+    // './scss/pages/home',
+    // './scss/pages/home',
+    // './scss/pages/home';
+@import 
+    
+    './scss/Themes/darktheme';
+
+@import 
+
+    './scss/shame';
