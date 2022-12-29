@@ -20,8 +20,8 @@
     './scss/layout/header',
     './scss/layout/main',
     './scss/layout/sidebar',
+    './scss/layout/about',
     './scss/layout/footer';
-    // './scss/layout/navbar';
 
 @import 
     './scss/components/banner',
@@ -29,7 +29,12 @@
     './scss/components/burger-menu',
     './scss/components/img-wrapper',
     './scss/components/menu',
-    './scss/components/social-media';
+    './scss/components/social-media',
+    './scss/components/section-header',
+    './scss/components/services',
+    './scss/components/about-us-img-wrapper'
+
+    ;
 // @import 
     // './scss/pages/home',
     // './scss/pages/home',
