@@ -1,1 +1,5 @@
-//This file you will create your mixins inside of the project
+@mixin phone {
+   @media screen and (max-width: 800px) {
+    @content;
+   } 
+}
