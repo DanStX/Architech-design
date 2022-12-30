@@ -1,17 +1,18 @@
 .section-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flexColumn;
     padding: 7rem 0 10rem 0;
+    
+    align-items: center;
 
     &__title {
         font-family: "Muli", sans-serif, serif;
         font-size: 5rem;
+        
         font-weight: 300;
         color: $grey;
         margin-bottom: 6rem;
     }
-
+    
     &__underline {
         width: 12rem;
         height: 0.3rem;

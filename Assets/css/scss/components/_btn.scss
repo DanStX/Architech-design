@@ -13,3 +13,16 @@
 	opacity: $zero;
 	animation: $animation .9s forwards;
 }
+
+.btn-1 {
+	width: 10rem;
+	height: 3rem;
+	background-color: $bgc;
+	border: none;
+	font-family: $Baloo;
+	font-size: 1.4rem;
+	line-height: 1.5rem;
+	color: $whiter;
+	border-radius: .3rem;
+	box-shadow: 0 .1rem .8rem rgba(0, 0, 0, 0.4);
+}
